@@ -4,63 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circuito de los origenes - Mapa Interactivo</title>
+    <title>Circuito de los origines - Recorrido virtual</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
-
-    <div class="loader">
-        <img src="img/logo0.gif" class="logo0" alt="Logo">
+    <div class="loader_container">
+        <div class="loader"></div>
     </div>
+    <a href="https://imct.gov.co/" target="_blank">
+        <img src="img/logoalcaldia.png" alt="Logo alcaldía" class="logoalcaldia">
+    </a>
 
-    <div class="container">
+    <section class="todo">
+        <div class="fondoblanco"></div>
+        <div class="fondoverde"></div>
 
-        <div class="textura"></div>
-
-        <img src="img/logo.gif" class="logo1" alt="Logo">
-
-        <div class="caja">
-            <div class="caja_titulo">
-                Un viaje por los sucesos, personajes y espacios que abrieron una historia de 400 años
-            </div>
-            <div class="caja_texto">
-                Vamos a hacer un recorrido por las plazas, parques, calles, viviendas, iglesias,
-                comercios, teatros y espacios sociales que dieron origen a las más importantes dinámicas y vitalidades
-                de Bucaramanga.
-            </div>
-            <a href="mapa/">
-                <div class="caja_boton">Ver circuito</div>
-            </a>
-        </div>
-
-        <div class="footer">
-            <div class="footer_caja1">
-                <div class="footer_aux1"></div>
-                <a href="https://www.bucaramanga.gov.co/" target="_blank"><img src="img/l1.png" class="logos"
-                        alt="Logo Alcaldía Bucaramanga"></a>
-                <a href="https://400.bucaramanga.gov.co/" target="_blank"><img src="img/l2.png" class="logos"
-                        alt="Logo BGA 400 años"></a>
-                <a href="https://imct.gov.co/" target="_blank"><img src="img/l3.png" class="logos" alt="Logo IMCT"></a>
-                <div class="footer_aux2"></div>
-            </div>
-            <div class="footer_caja2">
-                <div class="footer_aux3"></div>
-                <a href="https://imct.gov.co/" class="link_footer" target="_blank">
-                    <div class="footer_link">www.imct.gov.co</div>
+        <div class="contenido">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <div class="caja">
+                <img src="img/titulo1.png" alt="Titulo" class="titulo">
+                <a href="mapa/index.html">
+                    <div class="boton">Entrar</div>
                 </a>
-                <div class="footer_aux4"></div>
             </div>
         </div>
 
 
-    </div>
+    </section>
+
+
+
+
 
 
 
@@ -69,8 +50,6 @@
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/gsap.min.js"></script>
     <script src="actions.js"></script>
-
 </body>
-
 
 </html>
