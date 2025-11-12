@@ -1,6 +1,8 @@
 $(window).load(function () {
 
-    $(".loader").fadeOut()
+    setTimeout(() => {
+        $(".loader_container").fadeOut()
+    }, 200);
     var altura = $(window).height()
     mapa()
 
